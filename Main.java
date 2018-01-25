@@ -19,26 +19,30 @@ public class Main {
                 System.out.println("you have entered: " + number);
             } else if(sc.hasNextLine()){
                 float a,b;
+                /*
+                a = mystack.pop();
+                b = mystack.pop();
+                        */
                 operator = sc.nextLine();
                 switch(operator){
                     case "+":
-                        a = mystack.pop();
-                        b = mystack.pop();
+                        //a = mystack.pop();
+                        //b = mystack.pop();
                         mystack.push(a+b);
                         break;
                     case "-":
-                        a = mystack.pop();
-                        b = mystack.pop();
+                        //a = mystack.pop();
+                        //b = mystack.pop();
                         mystack.push(b-a);
                         break;
                     case "*":
-                        a = mystack.pop();
-                        b = mystack.pop();
+                        //a = mystack.pop();
+                        //b = mystack.pop();
                         mystack.push(a*b);
                         break;
                     case "/":
-                        a = mystack.pop();
-                        b = mystack.pop();
+                        //a = mystack.pop();
+                        //b = mystack.pop();
                         mystack.push(b/a);
                         break;
                     default:
