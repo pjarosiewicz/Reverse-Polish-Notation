@@ -19,10 +19,10 @@ public class Main {
                 System.out.println("you have entered: " + number);
             } else if(sc.hasNextLine()){
                 float a,b;
-                /*
+                
                 a = mystack.pop();
                 b = mystack.pop();
-                        */
+                
                 operator = sc.nextLine();
                 switch(operator){
                     case "+":
